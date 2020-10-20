@@ -27,4 +27,6 @@ console.log('removed2nd', euroCities);
 //Create another variable named asianCities and assign an array to the variable. Clone the array asianCities.
 const asianCities = ['Shangai', 'Tokyo'];
 const clonedAsianCities = [...asianCities];
+const cloneWithSlice = asianCities.slice();
 console.log(clonedAsianCities);
+console.log(cloneWithSlice);
