@@ -33,6 +33,10 @@ console.log(euroCities);
 
 // 7- 
 const asianCities = ["Sana\'a", "Cairo", "Baghdad", "Damascus", "Tokyo"];
-const clonedAsianCities = [];
+let clonedAsianCities = [];
 clonedAsianCities.push("Sana\'a", "Cairo", "Baghdad", "Damascus", "Tokyo");
 console.log(`The AsianCites are ${asianCities} and the cloned array is ${clonedAsianCities}`);
+
+/* Another solusion */
+clonedAsianCities = asianCities.slice();
+console.log(clonedAsianCities);
