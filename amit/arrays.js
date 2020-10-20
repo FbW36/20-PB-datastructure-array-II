@@ -1,6 +1,15 @@
-// Replace
-let euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"];
-console.log(euroCities.replace("Paris", "berlin"));
+//1
+const euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"];
+const secondItem = euroCities[1];
+console.log(secondItem);
+
+// 2 Change the first item in the array to "Berlin".
+euroCities[0] = "Berlin";
+console.log(euroCities);
+
+// Or Replace
+// let euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"];
+// console.log(euroCities.replace("Paris", "berlin"));
 
 // 3 length
 console.log(euroCities.length);
