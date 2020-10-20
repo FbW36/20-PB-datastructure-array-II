@@ -23,6 +23,6 @@ console.log("6==>",euroCities);
 
 //7
 const asianCities = ["Shangai", "Beijing", "Delhi", "Jakarta"];
-const asianCitiesClone = asianCities;
+const asianCitiesClone = asianCities.slice();
 console.log("7==>",asianCities);
 console.log("7 clone ==>",asianCitiesClone);
