@@ -21,8 +21,8 @@ euroCities.push('Budapest');
 console.log(euroCities);
 
 //Delete the second and third items from the euroCities array.
-const removed2nd = euroCities.splice(1, 2);
-console.log('removed2nd', euroCities);
+euroCities.splice(1, 2);
+console.log(euroCities);
 
 //Create another variable named asianCities and assign an array to the variable. Clone the array asianCities.
 const asianCities = ['Shangai', 'Tokyo'];
