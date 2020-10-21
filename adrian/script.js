@@ -24,7 +24,7 @@ console.log(euroCities);
 euroCities.splice(1, 2);
 console.log(euroCities);
 
-//Create another variable named asianCities and assign an array to the variable. Clone the array asianCities.
+//Create another variable named asianCities and assign an array to the variable. Clone the array asianCities
 const asianCities = ['Shangai', 'Tokyo'];
 const clonedAsianCities = [...asianCities];
 const cloneWithSlice = asianCities.slice();
