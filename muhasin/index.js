@@ -1,5 +1,5 @@
 const euroCities = ["Paris", "London", "Valletta", "Prague", "Rome"];
-
+const euroCity = euroCities[1];
 euroCities.push["Paris", "London", "Valletta", "Prague", "Rome"];
 euroCities[0] = "Berlin"
 console.log("Change the first item ==>", euroCities); // [ 'Berlin', 'London', 'Valletta', 'Prague' ]
