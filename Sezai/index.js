@@ -20,4 +20,9 @@ console.log("euroCities ==> ", euroCities);
 const asianCities = ["Tokyo", "HongKong", "Okinawa"]
 console.log("asianCities ==> ", asianCities);
 
-// 7. honestly i dont know what you want from me :D
+// 7. clone asianCities
+
+const clonedAsianCities = [...asianCities];
+const cloneWithSlice = asianCities.slice();
+console.log(clonedAsianCities);
+console.log(cloneWithSlice);
